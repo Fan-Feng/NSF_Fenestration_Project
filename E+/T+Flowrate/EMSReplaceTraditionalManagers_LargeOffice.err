@@ -1,0 +1,57 @@
+Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2018.11.01 16:06,
+   ************* Beginning Zone Sizing Calculations
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water VAV_5_COOLC
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 24.0508
+   **   ~~~   **                                    Wair,in = 1.028392E-002
+   **   ~~~   **                                    Twater,in = 7.2200
+   **   ~~~   **                                    Tair,out = 10.8314
+   **   ~~~   **                                    Wair,out = 8.478624E-003
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water VAV_1_COOLC
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 24.6453
+   **   ~~~   **                                    Wair,in = 9.413562E-003
+   **   ~~~   **                                    Twater,in = 7.2200
+   **   ~~~   **                                    Tair,out = 10.8283
+   **   ~~~   **                                    Wair,out = 8.478624E-003
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water VAV_2_COOLC
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 24.6391
+   **   ~~~   **                                    Wair,in = 9.309178E-003
+   **   ~~~   **                                    Twater,in = 7.2200
+   **   ~~~   **                                    Tair,out = 10.8279
+   **   ~~~   **                                    Wair,out = 8.478624E-003
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water VAV_3_COOLC
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 24.4684
+   **   ~~~   **                                    Wair,in = 9.148723E-003
+   **   ~~~   **                                    Twater,in = 7.2200
+   **   ~~~   **                                    Tair,out = 10.8273
+   **   ~~~   **                                    Wair,out = 8.478624E-003
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** CoolingTower:SingleSpeed "TOWERWATERSYS COOLTOWER"
+   **   ~~~   ** Cooling tower water outlet temperature (4.67 C) is below the specified minimum condenser loop temp of 5.00 C
+   **   ~~~   **  Environment=CHICAGO ANN HTG 99.6% CONDNS DB, at Simulation time=01/21 07:00 - 07:15
+   ************* Simulation Error Summary *************
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** CoolingTower:SingleSpeed "TOWERWATERSYS COOLTOWER" Cooling tower water outlet temperature is below the specified minimum condenser loop temp error continues...
+   *************  **   ~~~   **   This error occurred 92 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=4.70168  Min=4.400631
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 97 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 10.06sec

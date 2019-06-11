@@ -1,0 +1,182 @@
+Program Version,EnergyPlus-Windows-64 8.0.0.008, YMD=2018.11.12 22:22,IDD_Version 8.0.0.008
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** CheckUsedConstructions: There are 98 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_BOT_ZN_1", only 0.52 of the zone is controlled.
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_BOT_ZN_2", only 0.52 of the zone is controlled.
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_BOT_ZN_3", only 0.52 of the zone is controlled.
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_BOT_ZN_4", only 0.52 of the zone is controlled.
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_MID_ZN_1", only 0.52 of the zone is controlled.
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_MID_ZN_2", only 0.52 of the zone is controlled.
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_MID_ZN_3", only 0.52 of the zone is controlled.
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_MID_ZN_4", only 0.52 of the zone is controlled.
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_TOP_ZN_1", only 0.52 of the zone is controlled.
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_TOP_ZN_2", only 0.52 of the zone is controlled.
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_TOP_ZN_3", only 0.52 of the zone is controlled.
+   ** Warning ** GetDetailedDaylighting: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_TOP_ZN_4", only 0.52 of the zone is controlled.
+   ** Warning ** SizeZoneEquipment: Supply air temperature (calculated) within 5C of zone setpoint temperature
+   **   ~~~   ** ...check zone thermostat set point and design supply air temperatures
+   **   ~~~   ** ...zone = "PERIMETER_BOT_ZN_3" first occurrence during cooling load calculations
+   **   ~~~   ** ...predicted zone cooling load = -2135.57 W
+   **   ~~~   ** ...zone temperature            = 17.34 C
+   **   ~~~   ** ...supply air temperature      = 12.80 C
+   **   ~~~   ** ...temperature difference      = -4.53927 C
+   **   ~~~   ** ...calculated mass flow rate   = 0.46095 kg/s
+   ** Warning ** Calculated design heating load for zone=CORE_BOTTOM is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=PERIMETER_BOT_ZN_3 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=PERIMETER_BOT_ZN_2 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=PERIMETER_BOT_ZN_1 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=PERIMETER_BOT_ZN_4 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** SetpointManager:Scheduled="PACU_VAV_BOT_COOLC SAT SETPOINT"
+   **   ~~~   ** ...setpoint node conflicts with another setpoint manager.
+   **   ~~~   ** ...conflicting setpoint manager = SetpointManager:Scheduled:"PACU_VAV_BOT_HEATC SAT MANAGER"
+   **   ~~~   ** ...conflicting node name = PACU_VAV_BOT SUPPLY EQUIPMENT OUTLET NODE
+   **   ~~~   ** ...control type variable = Temperature
+   ** Warning ** SetpointManager:Scheduled="PACU_VAV_MID_COOLC SAT SETPOINT"
+   **   ~~~   ** ...setpoint node conflicts with another setpoint manager.
+   **   ~~~   ** ...conflicting setpoint manager = SetpointManager:Scheduled:"PACU_VAV_MID_HEATC SAT MANAGER"
+   **   ~~~   ** ...conflicting node name = PACU_VAV_MID SUPPLY EQUIPMENT OUTLET NODE
+   **   ~~~   ** ...control type variable = Temperature
+   ** Warning ** SetpointManager:Scheduled="PACU_VAV_TOP_COOLC SAT SETPOINT"
+   **   ~~~   ** ...setpoint node conflicts with another setpoint manager.
+   **   ~~~   ** ...conflicting setpoint manager = SetpointManager:Scheduled:"PACU_VAV_TOP_HEATC SAT MANAGER"
+   **   ~~~   ** ...conflicting node name = PACU_VAV_TOP SUPPLY EQUIPMENT OUTLET NODE
+   **   ~~~   ** ...control type variable = Temperature
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="MIDFLOOR_PLENUM" did not converge after 25 warmup days.
+   **   ~~~   ** See Warmup Convergence Information in .eio file for details.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 3.59E-003 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.15 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 1.0000 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 6.9727E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="FIRSTFLOOR_PLENUM" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 6.41E-002 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.74 vs Temperature Convergence Tolerance=0.20 - Fail Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 1.0000 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 0.8445 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="CORE_TOP" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 3.56E-003 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.29 vs Temperature Convergence Tolerance=0.20 - Fail Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 7.9057E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 2.5876E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="PERIMETER_TOP_ZN_3" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 6.15E-003 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.36 vs Temperature Convergence Tolerance=0.20 - Fail Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 1.1340E-005 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 0.4760 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="PERIMETER_TOP_ZN_1" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 6.79E-003 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.37 vs Temperature Convergence Tolerance=0.20 - Fail Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 1.1251E-005 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 0.4147 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="PERIMETER_TOP_ZN_4" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 7.59E-003 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.21 vs Temperature Convergence Tolerance=0.20 - Fail Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 2.3516E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 3.0316E-002 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="PERIMETER_BOT_ZN_3" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 7.95E-002 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 2.62E-002 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.0000 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 6.5414E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="PERIMETER_BOT_ZN_2" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 0.18 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.17 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.0000 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 8.3831E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="PERIMETER_BOT_ZN_4" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 0.10 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.20 vs Temperature Convergence Tolerance=0.20 - Fail Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.0000 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 1.7868E-002 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="PERIMETER_MID_ZN_3" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 2.29E-003 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.25 vs Temperature Convergence Tolerance=0.20 - Fail Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 7.2147E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 0.3285 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="PERIMETER_MID_ZN_1" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 4.41E-003 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.29 vs Temperature Convergence Tolerance=0.20 - Fail Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 7.0047E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 0.3403 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="PERIMETER_MID_ZN_4" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="Miami Intl Ap FL USA TMY3 WMO#=722020"
+   **   ~~~   ** ..Max Temp Comparison = 7.83E-002 vs Temperature Convergence Tolerance=0.20 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.35 vs Temperature Convergence Tolerance=0.20 - Fail Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 6.6661E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 3.7320E-002 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ************* Simulation Error Summary *************
+   ** Warning ** The following Report Variables were requested but not generated
+   **   ~~~   ** because IDF did not contain these elements or misspelled variable name -- check .rdd file
+   ************* Key=PERIMETER_TOP_ZN_3 VAV BOX OUTLET NODE NAME, VarName=SYSTEM NODE MASS FLOW RATE, Frequency=Detailed
+   ************* Key=PERIMETER_TOP_ZN_3 VAV BOX OUTLET NODE NAME, VarName=SYSTEM NODE TEMPERATURE, Frequency=Detailed
+   ************* There are 26 unused schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** Plant loop exceeding upper temperature limit, PlantLoop="SHWSYS1"
+   *************  **   ~~~   **   This error occurred 31385 total times;
+   *************  **   ~~~   **   during Warmup 29987 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=82.2222
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Loads Initialization did not Converge
+   ************* ..1) very high thermal mass such as very thick concrete (solution: increase max number of warmup
+   ************* ..   days in the BUILDING object);
+   ************* ..2) moderate mass and inadequate space conditioning such that the building keeps getting warmer
+   ************* ..   and warmer on successive days (solution: add HVAC, check building thermal properties,
+   ************* ..   check if infiltration is included, make sure HVAC properly controlled);
+   ************* ..3) a soil layer modeled below the concrete slab - (solution remove this layer and read about
+   ************* ..   ground temperatures in the Auxiliary Programs document).
+   ************* ..4) unreasonable (too small) limits in the BUILDING object for temperature (.4 default) or
+   ************* ..   loads tolerances (.04 default)
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 12 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 19 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 31408 Warning; 12 Severe Errors; Elapsed Time=00hr 00min 12.91sec

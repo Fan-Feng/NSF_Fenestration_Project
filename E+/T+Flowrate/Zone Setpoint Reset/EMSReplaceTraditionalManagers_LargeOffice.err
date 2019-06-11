@@ -1,0 +1,84 @@
+Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2018.11.12 18:36,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=CHICAGO_IL_USA TMY2-94846
+   **   ~~~   ** ..Weather File Location=Miami Intl Ap FL USA TMY3 WMO#=722020
+   **   ~~~   ** ..due to location differences, Latitude difference=[15.96] degrees, Longitude difference=[7.45] degrees.
+   **   ~~~   ** ..Time Zone difference=[1.0] hour(s), Elevation difference=[94.21] percent, [179.00] meters.
+   ** Warning ** Calculated design heating load for zone=BASEMENT is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** UpdateZoneSizing: Cooling supply air temperature (calculated) within 5C of zone temperature
+   **   ~~~   ** ...check zone thermostat set point and design supply air temperatures
+   **   ~~~   ** ...zone name = PERIMETER_TOP_ZN_3
+   **   ~~~   ** ...design sensible cooling load = 42626.74 W
+   **   ~~~   ** ...thermostat set point temp    = 0.000 C
+   **   ~~~   ** ...zone temperature             = 16.183 C
+   **   ~~~   ** ...supply air temperature       = 14.000 C
+   **   ~~~   ** ...temperature difference       = -2.18253 C
+   **   ~~~   ** ...calculated volume flow rate  = 10.81221 m3/s
+   **   ~~~   ** ...calculated mass flow rate    = 13.00427 kg/s
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** The design coil load is zero for Coil:Heating:Water BASEMENT VAV BOX REHEAT COIL
+   **   ~~~   ** The autosize value for maximum water flow rate is zero
+   **   ~~~   ** To change this, input a value for UA, change the heating design day, or raise the
+   **   ~~~   **   system heating design supply air temperature. Also check to make sure the Preheat
+   **   ~~~   **   Design Temperature is not the same as the Central Heating Design Supply Air Temperature. 
+   ** Warning ** The design coil load is zero for Coil:Heating:Water CORE_BOTTOM VAV BOX REHEAT COIL
+   **   ~~~   ** The autosize value for maximum water flow rate is zero
+   **   ~~~   ** To change this, input a value for UA, change the heating design day, or raise the
+   **   ~~~   **   system heating design supply air temperature. Also check to make sure the Preheat
+   **   ~~~   **   Design Temperature is not the same as the Central Heating Design Supply Air Temperature. 
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water VAV_5_COOLC
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 24.0553
+   **   ~~~   **                                    Wair,in = 1.035474E-002
+   **   ~~~   **                                    Twater,in = 7.2200
+   **   ~~~   **                                    Tair,out = 10.8756
+   **   ~~~   **                                    Wair,out = 8.286795E-003
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water VAV_1_COOLC
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 24.6269
+   **   ~~~   **                                    Wair,in = 9.484564E-003
+   **   ~~~   **                                    Twater,in = 7.2200
+   **   ~~~   **                                    Tair,out = 10.8726
+   **   ~~~   **                                    Wair,out = 8.286795E-003
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water VAV_2_COOLC
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 24.6267
+   **   ~~~   **                                    Wair,in = 9.361933E-003
+   **   ~~~   **                                    Twater,in = 7.2200
+   **   ~~~   **                                    Tair,out = 10.8721
+   **   ~~~   **                                    Wair,out = 8.286795E-003
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water VAV_3_COOLC
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 22.2243
+   **   ~~~   **                                    Wair,in = 8.998203E-003
+   **   ~~~   **                                    Twater,in = 7.2200
+   **   ~~~   **                                    Tair,out = 10.8708
+   **   ~~~   **                                    Wair,out = 8.286795E-003
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** CoolingTower:SingleSpeed "TOWERWATERSYS COOLTOWER"
+   **   ~~~   ** Cooling tower water outlet temperature (4.40 C) is below the specified minimum condenser loop temp of 5.00 C
+   **   ~~~   **  Environment=CHICAGO ANN HTG 99.6% CONDNS DB, at Simulation time=01/21 00:10 - 00:20
+   ************* Simulation Error Summary *************
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** CoolingTower:SingleSpeed "TOWERWATERSYS COOLTOWER" Cooling tower water outlet temperature is below the specified minimum condenser loop temp error continues...
+   *************  **   ~~~   **   This error occurred 49 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=4.508272  Min=4.39539
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 3 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 59 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  6.73sec
